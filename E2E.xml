@@ -1,0 +1,29 @@
+<suite name="E2E" verbose="1">
+    <parameter name="browser" value="chrome" />
+    <test name="E2E">
+        <classes>
+            <class  name ="LoginPageTest">
+                <methods>
+                    <iclude name="SuccessfulLogin" />
+                    <exclude name="InvalidLoginWithBlankFields" />
+                    <exclude name="InvalidLoginUsingWrongCredenials"/>
+                </methods>
+            </class>
+                <class name="HomePageTest">
+                    <methods>
+                    <iclude name="AddProductToCart" />
+                    </methods>
+            </class>
+            <class name="CartPageTest">
+                <methods>
+                    <iclude name="DirectedToCheckoutPage" />
+                </methods>
+            </class>
+            <class name="CheckoutPageTest">
+                <methods>
+                    <iclude name="ConfirmOrder" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
