@@ -1,16 +1,19 @@
-Project Name: SauceDemo.
+* Project Name: SauceDemo.
 
-Selenium Webdriver, TestNG , Allure report
+* Selenium Webdriver, TestNG 
 
-Project Design Patterns: 
-Page Object Model (POM)
+* Project Design Patterns: 
+  .Page Object Model (POM)
 
-Data-Driven Test (DDT)
+  .Data-Driven Test (DDT)
 
-Covering The following Test Cases :
+* read test data from  json files and java faker Library
+* integrated with allure report
 
-Login To the System
+* Covering The following Test Cases :
 
-Add Product To Cart
+ .Login To the System
 
-Confirm Order
+ .Add Product To Cart
+
+ .Confirm Order
