@@ -1,9 +1,10 @@
 Project Name: SauceDemo.
 
-The main Frameworks included in the project: Selenium Webdriver, TestNG , Allure report
+Selenium Webdriver, TestNG , Allure report
 
-Project Design: 
+Project Design Patterns: 
 Page Object Model (POM)
+
 Data-Driven Test (DDT)
 
 Covering The following Test Cases :
