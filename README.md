@@ -10,6 +10,6 @@ Covering The following Test Cases :
 
 Login To the System
 
-Add Product To Wishlist
+Add Product To Cart
 
 Confirm Order
