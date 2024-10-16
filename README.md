@@ -7,8 +7,7 @@
 
   .Data-Driven Test (DDT)
 
-* read test data from  json files and java faker Library
-* integrated with allure report
+* read test data from  json files and java faker
 
 * Covering The following Test Cases :
 
