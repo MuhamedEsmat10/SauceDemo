@@ -1,6 +1,4 @@
 import Data.JsonDataReader;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +10,6 @@ public class CartPageTest extends TestBase{
     protected HomePage homePage;
     protected CartPage cartPage;
     @Test()
-    @Severity(SeverityLevel.CRITICAL)
     public void DirectedToCheckoutPage() throws FileNotFoundException {
         JsonDataReader jsonReader = new JsonDataReader();
         jsonReader.JsonReader();
