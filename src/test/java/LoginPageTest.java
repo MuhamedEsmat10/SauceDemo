@@ -1,8 +1,4 @@
 import Data.JsonDataReader;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -14,8 +10,6 @@ public class LoginPageTest extends TestBase {
    protected LoginPage loginPage;
    protected CheckoutPage checkoutPage;
     @Test(priority = 1)
-    @Description("user can successfully login using valid credentials ")
-    @Severity(SeverityLevel.CRITICAL)
     public void SuccessfulLogin() throws FileNotFoundException {
         JsonDataReader jsonReader = new JsonDataReader();
         jsonReader.JsonReader();
