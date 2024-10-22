@@ -1,6 +1,5 @@
 import Data.JsonDataReader;
 import com.github.javafaker.Faker;
-import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -19,7 +18,6 @@ public class CheckoutPageTest extends TestBase {
     String LastName = fakeData.name().lastName();
     String PostalCode = fakeData.address().zipCode();
     @Test
-    @Severity(SeverityLevel.CRITICAL)
     public void ConfirmOrder() throws FileNotFoundException {
         JsonDataReader jsonReader = new JsonDataReader();
         jsonReader.JsonReader();
