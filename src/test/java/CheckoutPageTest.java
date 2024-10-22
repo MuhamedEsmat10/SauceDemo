@@ -1,6 +1,5 @@
 import Data.JsonDataReader;
 import com.github.javafaker.Faker;
-import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
