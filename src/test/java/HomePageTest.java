@@ -1,7 +1,4 @@
 import Data.JsonDataReader;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -14,8 +11,6 @@ public class HomePageTest extends TestBase{
     public LoginPage loginPage;
     protected HomePage homePage;
     @Test()
-    @Description("user after successful login can add product to cart")
-    @Severity(SeverityLevel.CRITICAL)
     public void AddProductToCart()
     {
         JsonDataReader jsonReader = new JsonDataReader();
